@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('../../fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('../../fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Extrabold';
+    src: url('../../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Medium';
+    src: url('../../fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('../../fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans Bolditalic';
+    src: url('../../fonts/PTSans-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/PTSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans Bold';
+    src: url('../../fonts/PTSans-Bold.woff2') format('woff2'),
+        url('../../fonts/PTSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../../fonts/PTSans-Regular.woff2') format('woff2'),
+        url('../../fonts/PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans Italic';
+    src: url('../../fonts/PTSans-Italic.woff2') format('woff2'),
+        url('../../fonts/PTSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+

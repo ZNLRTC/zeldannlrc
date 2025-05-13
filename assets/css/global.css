@@ -1,0 +1,296 @@
+/*--------------------------
+GENERAL
+---------------------------*/
+.pointer:hover{
+  cursor: pointer;
+}
+
+.bg-llight {
+  background-color: #f8f9fa !important;
+}
+
+.bg-orange {
+  background-color: #f58300 !important;
+}
+
+.bg-red {
+  background-color: #f71100 !important;
+}
+
+.text-orange {
+  color: #f58300 !important;
+}
+
+.bg-lblue {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #cfe0ff;
+}
+
+.opacity-25 {
+  opacity: 0.25 !important;
+}
+
+/*--------------------------
+Header
+---------------------------*/
+.navbar-custom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.navbar-custom ul.topbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom ul li .fa-comment-alt{
+  font-size: 20px;
+}
+
+/*--------------------------
+ADMIN
+---------------------------*/
+
+.li-document-requests a{
+    color: #8391a2;
+}
+
+.li-document-requests a:hover{
+    color: #bccee4;
+}
+
+.break-long-text {
+  width: 150px;
+  word-break: break-all;
+}
+
+.scroll-long-text {
+  max-height: 100px;
+  overflow: auto;
+}
+
+.new-message-alert {
+  background-color: red;
+  padding: .25rem .50rem;
+  color: white;
+  border-radius: 11px;
+  font-size: .50rem;
+}
+
+#applicant-batches_filter,
+#applicant-batch-number_filter,
+#applicantsData_filter,
+#applicantsData1_filter,
+#applicantsData2_filter,
+#applicantsData3_filter,
+#employeeData_filter,
+#user-messages-table_filter,
+#user-messages-table_length{
+  display: none;
+}
+
+.rounded-1-25 {
+  border-radius: 1.25rem !important;
+}
+
+.history-table-container {
+  max-height: 200px;
+  overflow: auto;
+}
+
+table tr td {
+  vertical-align: middle;
+}
+
+#applicants-move-batch-table thead th,
+#applicants-mass-change-status-table thead th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#applicants-move-batch-table tbody tr td,
+#applicants-mass-change-status-table tr td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.status-card-container {
+  flex: 1; 
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 8px;
+  margin-right: 1.5rem; 
+  height: 100%;
+  color: #ffffff;
+}
+
+.status-card-container:hover{
+  color: #ffffff !important;
+}
+
+.status-card-container .status-icon {
+  font-size: 40px;
+}
+
+
+.status-card-container:last-child {
+  margin-right: 0; /* Remove margin on the last item */
+}
+
+/*--------------------------
+MESSAGES
+---------------------------*/
+
+  .messaging-container {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conversation {
+    height: 50vh;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .message-text {
+    border-radius: 1.75rem;
+    padding: .5rem 1rem;
+  }
+  
+  .received {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 80%;
+  }
+
+  .received .message-text {
+    background-color: #e6e6e6;
+  }
+  
+  .sent {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: 20%;
+  }
+
+  .sent .message-text {
+    background-color: #cfe0ff;
+  }
+  
+  .sender {
+    font-weight: bold;
+  }
+  
+  .sent .message {
+    text-align: right;
+  }
+  
+  .message p {
+    margin: 5px 0;
+  }
+  
+  .time {
+    font-size: 12px;
+    color: #888;
+    display: block;
+    text-align: right;
+  }
+
+  .sent .time {
+    margin-right: 1rem;
+  }
+
+  .received .time {
+    margin-left: 1rem;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .received .arrow {
+    left: -10px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #e6e6e6 transparent transparent;
+  }
+  
+  .sent .arrow {
+    right: -10px;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #cfe0ff;
+  }
+  
+  .message-input {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .message-input button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .message-input button:hover {
+    background-color: #45a049;
+  }
+
+  .conversation-container a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70%;
+  }
+
+  .message-keywords:hover .card-header {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #cfe0ff;
+  }
+
+/*--------------------------
+BLOGS
+---------------------------*/
+.blog-thumb-container{
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c72ba;
+}
+
+
+
+
+
+  

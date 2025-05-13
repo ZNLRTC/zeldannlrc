@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo BASE_URL_ASSETS; ?>css/login.min.css" id="light-style">
+<link rel="stylesheet" href="<?php echo BASE_URL_ASSETS; ?>css/app-dark.min.css" id="dark-style">
